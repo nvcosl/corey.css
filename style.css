@@ -1,96 +1,60 @@
-/* Hide the default Lioden cave & pride overview grids */
-div.cave-grid,
-div.mound-grid,
-a[href*="unsorted.php"],
-a[href*="nesting.php"],
-a[href*="lionoverview.php"],
-a[href*="cave.php"] {
+/* 1. Turn the cave container into a 2-column grid */
+div.container.main div.col-md-9 > div:has(.cave-grid) {
+    display: grid !important;
+    grid-template-columns: 180px 1fr; /* Left column 180px wide, right column fills the rest */
+    gap: 10px 20px; /* 10px vertical gap, 20px horizontal gap */
+    align-items: start;
+}
+
+/* 2. Remove Bootstrap's default column widths/floats on the links */
+div:has(> .cave-grid) {
+    width: 100% !important;
+    float: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* 3. Pin the first 3 boxes (Unsorted, Pregnant, Pride Overview) to Column 1 */
+div:has(> .cave-grid):nth-of-type(1) { grid-column: 1; grid-row: 1 / span 2; }
+div:has(> .cave-grid):nth-of-type(2) { grid-column: 1; grid-row: 3 / span 2; }
+div:has(> .cave-grid):nth-of-type(3) { grid-column: 1; grid-row: 5 / span 2; }
+
+/* 4. Style all boxes in the default Lioden "Blank Box" theme */
+.cave-grid {
+    background: #f3e6d6 !important; /* Classic Lioden light tan */
+    border: 1px solid #b5946b !important; /* Classic Lioden brown border */
+    border-radius: 3px !important;
+    color: #3d2b1f !important;
+    padding: 6px !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+}
+
+/* 5. Turn custom caves (4th item onward) into horizontal bars in Column 2 */
+div:has(> .cave-grid):nth-of-type(n+4) {
+    grid-column: 2;
+}
+
+div:has(> .cave-grid):nth-of-type(n+4) .cave-grid {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    padding: 0 15px !important;
+    text-align: left !important;
+    background: #e6d2b8 !important; /* Slightly darker tan bar for contrast */
+}
+
+/* 6. Hide the default cave banner image on the horizontal bars */
+div:has(> .cave-grid):nth-of-type(n+4) .cave-grid img {
     display: none !important;
 }
 
-/* Re-enable links inside our custom layout */
-.custom-pride-wrapper a {
-    display: flex !important;
-    text-decoration: none !important;
+/* 7. Keep the thumbnail images visible on the 3 left-hand boxes */
+div:has(> .cave-grid):nth-of-type(-n+3) .cave-grid img {
+    width: 85px !important;
+    height: 85px !important;
+    object-fit: cover;
+    border: 1px solid #b5946b;
+    margin-bottom: 4px;
 }
-
-/* Main Side-by-Side Container */
-.custom-pride-wrapper {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    width: 100%;
-    margin: 15px 0;
-    box-sizing: border-box;
-}
-
-/* LEFT COLUMN: Unsorted, Pregnant, Overview */
-.pride-left-col {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    width: 24%;
-    min-width: 150px;
-}
-
-.pride-card {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: #4d3623; /* Vanilla Lioden dark brown */
-    border: 1px solid #2b1d12;
-    border-radius: 5px;
-    padding: 12px 8px;
-    color: #f3e5cc !important; /* Vanilla Lioden cream text */
-    font-weight: bold;
-    font-size: 13px;
-    text-align: center;
-    transition: 0.2s;
-}
-
-.pride-card:hover {
-    background: #61452d;
-    color: #ffffff !important;
-}
-
-.pride-card img {
-    width: 65px;
-    height: 65px;
-    object-fit: contain;
-    margin-bottom: 8px;
-}
-
-/* RIGHT COLUMN: Horizontal Cave Bars */
-.pride-right-col {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 10px;
-    width: 76%;
-}
-
-.cave-bar {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background: #4d3623; /* Vanilla Lioden dark brown */
-    border: 1px solid #2b1d12;
-    border-radius: 5px;
-    padding: 10px 16px;
-    color: #f3e5cc !important;
-    font-size: 14px;
-    font-weight: bold;
-    transition: 0.2s;
-}
-
-.cave-bar:hover {
-    background: #61452d;
-    color: #ffffff !important;
-}
-
-/* Sun and Moon icons on the right of the bars */
-.cave-bar .status-icon {
-    width: 18px;
-    height: 18px;
-}
-
