@@ -1,8 +1,16 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+</style>
+
 /* CSS Template by WAS #387866, you may edit or sell this template (premade or comms, idc) BUT you may NOT remove the Credit on the breadcrumb or this text unless your coding becomes unrecognizable from mine. If you have any Questions about this Template feel free to PM WAS on Lioden! :3 */
 
 /* Background & Description Color */
 body {
-  background: url('https://i.ibb.co/8MZVpbD/pexels-pixabay-52971.jpg') center center fixed !important;
+  background: url('https://file.garden/aYehHBhrzEUxIyMl/IMG_8542.webp') center center fixed !important;
   color: #fff !important;
   background-repeat: no-repeat !important;
   background-attachment: fixed !important;
@@ -13,7 +21,7 @@ body {
 
 /* Lioden Logo Replacement */
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-  content: url("https://i.pinimg.com/originals/b0/4d/3a/b04d3a0946bbe86a2722ce7fc2f4f472.gif") !important;
+  content: url("https://file.garden/aYehHBhrzEUxIyMl/IMG_8550.webp") !important;
   width: 192px !important;
     position: relative;
     top: -25%;
