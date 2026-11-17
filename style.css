@@ -492,7 +492,7 @@ img[src$="unsortedlionsbanner.png"] {
 
 /* Caves */
 img[src$="cavedefault.jpg"] {
-  background: url('https://static.lioden.com/images/dynamic/backgrounds/nightmares.png') !important;
+  background: url('https://static.lioden.com/images/dynamic/backgrounds/Bale_mountians.png') !important;
   padding-left: 100%;
   height: 130px !important;
   background-position: 0% 80% !important;
@@ -502,7 +502,7 @@ img[src$="cavedefault.jpg"] {
 
 /* Mounds */
 .mound-grid img {
-  background: url("https://static.lioden.com/images/dynamic/backgrounds/nightmares.png");
+  background: url("https://static.lioden.com/images/dynamic/backgrounds/BenoueNationalPark.png");
   width: 0;
   height: 0;
   padding-top: 92px !important;
@@ -512,23 +512,10 @@ img[src$="cavedefault.jpg"] {
 }
 
 
-/* SB Icon */
-img[src$="silver.png"] {
-  content: url('https://i.imgur.com/248oA1g.png') !important;
-  width: 20px !important;
-}
-
-/* GB Icon */
-img[src$="gold.png"] {
-  content: url('https://i.imgur.com/JuepnJA.png') !important;
-  width: 20px !important;
-}
-
-
 /* Copyright, Terms of Service, CoC, etc. */
 div.container.footer.center.white.visible-lg.visible-md.visible-sm,
 div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
-  color: #f0f0f0 !important;
+  color: #fffcfa !important;
   text-shadow: none !important
 }
 
