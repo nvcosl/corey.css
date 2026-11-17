@@ -6,6 +6,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 </style>
 
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/lion-b04bb36c-32.webp') 32 32, auto !important;
+}
+
 /* CSS Template by WAS #387866, you may edit or sell this template (premade or comms, idc) BUT you may NOT remove the Credit on the breadcrumb or this text unless your coding becomes unrecognizable from mine. If you have any Questions about this Template feel free to PM WAS on Lioden! :3 */
 
 /* Background & Description Color */
