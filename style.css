@@ -45,14 +45,14 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #737371 !important;
+  background: #c7b099 !important;
   width: 15px !important;
 }
 
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #94908d;
+  background: #7a6957;
   border-radius: 0px !important;
   width: 15px !important;
 }
@@ -60,13 +60,13 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #94908d;
+  background: #9e9b68;
   border-radius: 0px !important;
 }
 
 /* Container behind Everything */
 .container.main {
-  background: rgba(195,194,190,0.09) !important;
+  background: rgba(227, 201, 175, 1) !important;
   border: none;
   border-radius: 0px;
 }
