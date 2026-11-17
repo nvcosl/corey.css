@@ -73,13 +73,13 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* Big Bar (Den, Crossroads, Hoard, etc) */
 .navbar {
-	background: rgba(148,144,141,0.25) !important;
+	background: rgba(87, 70, 53, 1) !important;
 	border: none !important;		
 }
 
 /* Big Bar Text Stuff */
 .navbar li a {
-	color: #f0f0f0 !important;
+	color: #fffcfa !important;
 	font-size: 20px !important;
 	transition: 0.5s !important;
 }
@@ -87,7 +87,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 /* Big Bar on Hover */
 .navbar li a:hover, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle {
   background: none !important;
-	color: #94908d !important;
+	color: #a89585 !important;
 	border-radius: 10px !important;
     border: none !important;
 }
