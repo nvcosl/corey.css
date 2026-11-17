@@ -1,0 +1,547 @@
+/* CSS Template by WAS #387866, you may edit or sell this template (premade or comms, idc) BUT you may NOT remove the Credit on the breadcrumb or this text unless your coding becomes unrecognizable from mine. If you have any Questions about this Template feel free to PM WAS on Lioden! :3 */
+
+/* Background & Description Color */
+body {
+  background: url('https://i.ibb.co/8MZVpbD/pexels-pixabay-52971.jpg') center center fixed !important;
+  color: #fff !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
+}
+
+/* Lioden Logo Replacement */
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+  content: url("https://i.pinimg.com/originals/b0/4d/3a/b04d3a0946bbe86a2722ce7fc2f4f472.gif") !important;
+  width: 192px !important;
+    position: relative;
+    top: -25%;
+}
+
+/* Ignore */
+.col-md-9 {
+  background: transparent!important;
+  border-right: none
+}
+
+/* Width of the Scrollbar on the Right */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #737371 !important;
+  width: 15px !important;
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #94908d;
+  border-radius: 0px !important;
+  width: 15px !important;
+}
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #94908d;
+  border-radius: 0px !important;
+}
+
+/* Container behind Everything */
+.container.main {
+  background: rgba(195,194,190,0.09) !important;
+  border: none;
+  border-radius: 0px;
+}
+
+/* Big Bar (Den, Crossroads, Hoard, etc) */
+.navbar {
+	background: rgba(148,144,141,0.25) !important;
+	border: none !important;		
+}
+
+/* Big Bar Text Stuff */
+.navbar li a {
+	color: #f0f0f0 !important;
+	font-size: 20px !important;
+	transition: 0.5s !important;
+}
+
+/* Big Bar on Hover */
+.navbar li a:hover, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle {
+  background: none !important;
+	color: #94908d !important;
+	border-radius: 10px !important;
+    border: none !important;
+}
+
+
+/* Bar at the Top (Welcome back, ___) */
+.topbar {
+  background: rgba(148,144,141,0.2) !important;
+  color: #f0f0f0 !important;
+  border: none;
+}
+
+/* Comment Box */
+#commentBox {
+  background: rgba(195,194,190,0.1);
+  color: #f0f0f0 !important;
+  border: none !important;
+  border-radius: 3px !important;
+}
+
+/* "Post" Button under the Comment Box */
+#postComment {
+  background: #94908d !important;
+}
+
+/* Small Bar below Navbar (Home / ___s Den) */
+.breadcrumb {
+  background: rgba(218,217,215,0.1) !important;
+  border: none;
+  color: #f0f0f0 !important;
+  border-radius: 4px !important;
+}
+
+
+/* Color of the ___s Den Text IN the breadcrumb */
+.breadcrumb .active {
+  color: #f0f0f0 !important;
+}
+
+/* Credits */
+.breadcrumb::after {
+  content: "Template by WAS #387866";
+  color: #f0f0f0 !important;
+  position: absolute;
+  right: 13%;
+  z-index: 100
+}
+
+/* Adjusting the Credits position for smaller Screens */
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .breadcrumb::after {
+    right: 20%
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .breadcrumb::after {
+    right: 20%
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .breadcrumb::after {
+    right: 22%
+  }
+}
+
+
+/* Bookmark Button*/
+input.floatright,
+input.floatright:hover {
+  background: rgba(218,217,215,0.2) !important;
+  border: none !important;
+  border-radius: 0px !important;
+  color: #f0f0f0 !important;
+}
+
+
+/* Switch Account Button*/
+button.button,
+button.button:hover {
+  background: rgba(218,217,215,0.2) !important;
+  border: none !important;
+  border-radius: 3px !important;
+  text-shadow: none !important;
+  color: #f0f0f0 !important;
+}
+
+/* Warnings (Lions leaving soon, Hungry Lions, Not Nested,came back from Patrolling, finished Hunting) */
+.alert,
+.alert-warning,
+.alert-danger {
+  background: rgba(195,194,190,0.2) !important;
+  border: none !important;
+  color: #f0f0f0 !important;
+  border-radius: 4px !important;
+}
+
+/*Header 1 ('___'s Den) */
+h1 {
+  color: #f0f0f0 !important;
+  font-size: 43px !important;
+  text-align: center !important;
+}
+
+
+/* Small Header (King Dynasty, Pride Dynasty, Achievements, etc) */
+h3 {
+  color: #f0f0f0 !important;
+}
+
+
+/* Red Notification Button when you get a New Message */
+.badge {
+  background: #94908d !important;
+  color: #f0f0f0 !important;
+  font-size: 11px;
+  text-align: center !important;
+  padding: 3px 7px 3px 5px !important;
+}
+
+
+/* Panels on the Right */
+.panel {
+background: rgba(195,194,190,0.2) !important;
+color: #f0f0f0 !important;
+box-shadow: none !important;
+border: none !important;
+border-radius: 4px !important;
+}
+
+
+/* Panel Headers */
+.sidebar h3 {
+  color: #f0f0f0 !important;
+  font-size: 26px !important;
+  font-family: "Crimson Text", serif !important;
+}
+
+
+/* Even Numbered Messages */
+.s-chat-message:nth-child(even) {
+  background: rgba(218,217,215,0.2) !important;
+  color: #f0f0f0 !important;
+  border: none !important
+}
+
+
+/* Odd Numbered Messages */
+.s-chat-message:nth-child(odd)  {
+  background: rgba(195,194,190,0.2) !important;
+  color: #f0f0f0 !important;
+  border: none !important
+}
+
+
+/* Pinned Message */
+.s-chat-message__pinned {
+  background: rgba(195,194,190,0.3) !important;
+  color: #f0f0f0 !important;
+  border: none !important
+}
+
+
+/* Pings (@ messages) */
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+  background-color: rgba(194,187,182,0.4) !important;
+  border-left: none;
+}
+
+/* Timestamps */
+.s-chat-message_timestamp {
+  color: #f0f0f0 !important;
+}
+
+/* BG of Chatbox */
+html.nolayout body {
+background: none !important
+}
+
+/* Container BEHIND Edit your Details*/
+#accountoptionspanel .left,
+#changepasswordpanel .b,
+#editdetailspanel .b,
+#sparring,
+#allies .left,
+#editdetailspanel .right {
+  background: rgba(148,144,141,0.2) !important
+}
+
+
+/* Channel Button ie. Main, Sales */
+button#label_currentChannel {
+  background: rgba(148,144,141,0.3) !important;
+  color: #f0f0f0 !important;
+  border: none !important
+}
+
+
+/* King Image */
+#lion_image {
+  overflow: hidden;
+  border-radius: 8% !important;
+}
+
+
+/* Player Image */
+table#player img {
+  border-radius: 8% !important;
+}
+
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+.inner-table .left {
+  background: rgba(218,217,215,0.2) !important;
+  color: #f0f0f0 !important;
+  border-radius: 0px !important;
+  border-top-left-radius: 5px 5px !important;
+  border-bottom-left-radius: 5px 5px !important;
+}
+
+
+/* Color behind the number of all of the things above */
+.inner-table .right {
+  background: rgba(195,194,190,0.2) !important;
+  color: #f0f0f0 !important;
+  border-radius: 0px !important;
+  border-top-right-radius: 5px 5px !important;
+  border-bottom-right-radius: 5px 5px !important;
+}
+
+
+/* Area BEHIND the Above Mentioned */
+td.right, #about .right > td {
+  background: rgba(148,144,141,0.1) !important;
+  color: #f0f0f0 !important;
+  border-radius: opx !important;
+}
+
+/* Kings Title */
+.xlarge.b {
+    color: #f0f0f0 !important; 
+}
+
+
+/* Ignore */
+.right_odd, #clans .left {
+  background: none !important;
+    border: none !important;
+      visibility: hidden !important;
+}
+
+
+/* Ignore */
+.table {
+  background: transparent !important;
+    border: none !important;
+}
+
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+.cave-grid,
+.mound-grid {
+  background: rgba(218,217,215,0.1) !important;
+  border: none !important;
+  border-radius: 3px !important;
+  color: #f0f0f0 !important;
+}
+
+
+/* Feed All, Play All */
+.feature {
+  background: rgba(218,217,215,0.1) !important;
+  color: #f0f0f0 !important;
+  border: none !important;
+  border-radius: 3px !important
+}
+
+/* Color behind King Dynasty, Pride Dynasty, etc */
+.feature,
+div.left {
+  background: rgba(218,217,215,0.1) !important;
+  border: none;
+  border-radius: 0px !important
+}
+
+
+/* Input Areas (Edit your Details, Comment etc) */
+input,
+select,
+textarea,
+select[disabled] {
+  background: rgba(195,194,190,0.3) !important;
+  border: none !important;
+  border-radius: 0px !important;
+  color: #f0f0f0 !important;
+  box-shadow: none !important;
+  text-shadow: none !important
+}
+
+
+/* Account options Panel  (Friend Requests Toggles, etc.) */
+.item-header {
+  background: rgba(148,144,141,0.3) !important;
+  color: #f0f0f0 !important;
+  border-radius: 0px !important;
+}
+
+/* Area BELOW the Above mentioned */
+.item {
+  background: rgba(195,194,190,0.1) !important;
+  border: none !important;
+  border-radius: 0px !important
+}
+
+
+/* Account Options on/off Toggle Switch */
+div.slider.round  {
+  background: #fff !important;
+}
+
+
+/* Circle Part */
+div.slider.round::before {
+  background: #dad9d7 !important
+}
+
+
+/* Link Color */
+a:link,
+a:visited {
+  color: #dad9d7 !important;
+  font-weight: normal;
+}
+
+
+/* Link Color on Hover */
+a:hover {
+  color: #dad9d7!important;
+}
+
+/* bar behind Lions with Mutation, Kings Name etc */
+.top,
+.bottom,
+th {
+  background: rgba(195,194,190,0.2) !important;
+  color: #f0f0f0 !important;
+  border-radius: 0px
+}
+
+
+/* Background of The 4 Bars in Panels (Energy, Hunger, EXP and Imp) */
+.progress {
+  background: rgba(195,194,190,0.4) !important;
+  border: none;
+  color: #f0f0f0 !important;
+  border-radius: 2px !important
+}
+
+/* Colored Part of the Above mentioned*/
+.progress-bar {
+  background: rgba(49,48,46,0.9) !important;
+  color: #f0f0f0 !important;
+  border-radius: 0px !important;
+}
+
+/* Color of the Above mentioned */
+.progress div {
+  color: #f0f0f0 !important
+}
+
+
+/* Pregnant Lionesses */
+img[src$="nestingbanner.png"] {
+  background: url('https://static.lioden.com/images/dynamic/backgrounds/graveyardnight.png');
+  height: 60px !important;
+  width 260px !important;
+  padding-left: 100%;
+  background-size: 100%;
+}
+
+/* Pride Overview */
+img[src$="prideoverviewbanner.png"] {
+  background: url('https://static.lioden.com/images/dynamic/backgrounds/ChampionshipsNightBG.png') !important;
+  padding-left: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat !important;
+  background-position: 0% 0% !important;
+  height: 60px !important;
+  width 260px !important;
+}
+
+/* Unsorted */
+img[src$="unsortedlionsbanner.png"] {
+  background: url('https://static.lioden.com/images/dynamic/backgrounds/desertcave.png') !important;
+  height: 60px !important;
+  width 260px !important;
+  padding-left: 100%;
+  background-position: 0% 0% !important;
+  background-size: 100%;
+}
+
+/* Caves */
+img[src$="cavedefault.jpg"] {
+  background: url('https://static.lioden.com/images/dynamic/backgrounds/nightmares.png') !important;
+  padding-left: 100%;
+  height: 130px !important;
+  background-position: 0% 80% !important;
+  width 240px !important;
+}
+
+
+/* Mounds */
+.mound-grid img {
+  background: url("https://static.lioden.com/images/dynamic/backgrounds/nightmares.png");
+  width: 0;
+  height: 0;
+  padding-top: 92px !important;
+  padding-right: 130px;
+  background-size: 100% !important;
+    background-position: 50% 60% !important;
+}
+
+
+/* SB Icon */
+img[src$="silver.png"] {
+  content: url('https://i.imgur.com/248oA1g.png') !important;
+  width: 20px !important;
+}
+
+/* GB Icon */
+img[src$="gold.png"] {
+  content: url('https://i.imgur.com/JuepnJA.png') !important;
+  width: 20px !important;
+}
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+div.container.footer.center.white.visible-lg.visible-md.visible-sm,
+div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+  color: #f0f0f0 !important;
+  text-shadow: none !important
+}
+
+
+ /*lastly, this part makes the CSS Mobile friendly*/
+@media only screen and (max-width: 767px) {
+  .container.main .hidden-xs {
+    display: block !important;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .container.main .hidden-xs {
+    display: block !important;
+  }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  display: block !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+  div.quote {
+    width: 790px;
+  }
