@@ -66,14 +66,14 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* Container behind Everything */
 .container.main {
-  background: rgba(227, 201, 175, 1) !important;
+  background: rgba(217, 202, 179, 1) !important;
   border: none;
   border-radius: 0px;
 }
 
 /* Big Bar (Den, Crossroads, Hoard, etc) */
 .navbar {
-	background: rgba(87, 70, 53, 1) !important;
+	background: rgba(69, 57, 48, 1) !important;
 	border: none !important;		
 }
 
@@ -95,14 +95,14 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* Bar at the Top (Welcome back, ___) */
 .topbar {
-  background: rgba(148,144,141,0.2) !important;
+  background: rgba(69, 57, 48, 1) !important;
   color: #f0f0f0 !important;
   border: none;
 }
 
 /* Comment Box */
 #commentBox {
-  background: rgba(195,194,190,0.1);
+  background: rgba(140, 122, 107, 1);
   color: #f0f0f0 !important;
   border: none !important;
   border-radius: 3px !important;
@@ -110,12 +110,12 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* "Post" Button under the Comment Box */
 #postComment {
-  background: #94908d !important;
+  background: #453930 !important;
 }
 
 /* Small Bar below Navbar (Home / ___s Den) */
 .breadcrumb {
-  background: rgba(218,217,215,0.1) !important;
+  background: rgba(140, 122, 107, 1) !important;
   border: none;
   color: #f0f0f0 !important;
   border-radius: 4px !important;
@@ -124,13 +124,13 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* Color of the ___s Den Text IN the breadcrumb */
 .breadcrumb .active {
-  color: #f0f0f0 !important;
+  color: #fffcfa !important;
 }
 
 /* Credits */
 .breadcrumb::after {
   content: "Template by WAS #387866";
-  color: #f0f0f0 !important;
+  color: #fffcfa !important;
   position: absolute;
   right: 13%;
   z-index: 100
@@ -159,36 +159,36 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 /* Bookmark Button*/
 input.floatright,
 input.floatright:hover {
-  background: rgba(218,217,215,0.2) !important;
+  background: rgba(69, 57, 48, 1) !important;
   border: none !important;
   border-radius: 0px !important;
-  color: #f0f0f0 !important;
+  color: #fffcfa !important;
 }
 
 
 /* Switch Account Button*/
 button.button,
 button.button:hover {
-  background: rgba(218,217,215,0.2) !important;
+  background: rgba(140, 122, 107) !important;
   border: none !important;
   border-radius: 3px !important;
   text-shadow: none !important;
-  color: #f0f0f0 !important;
+  color: #fffcfa !important;
 }
 
 /* Warnings (Lions leaving soon, Hungry Lions, Not Nested,came back from Patrolling, finished Hunting) */
 .alert,
 .alert-warning,
 .alert-danger {
-  background: rgba(195,194,190,0.2) !important;
+  background: rgba( 69, 57, 48, 1) !important;
   border: none !important;
-  color: #f0f0f0 !important;
+  color: #fffcfa !important;
   border-radius: 4px !important;
 }
 
 /*Header 1 ('___'s Den) */
 h1 {
-  color: #f0f0f0 !important;
+  color: #fffcfa !important;
   font-size: 43px !important;
   text-align: center !important;
 }
@@ -196,14 +196,14 @@ h1 {
 
 /* Small Header (King Dynasty, Pride Dynasty, Achievements, etc) */
 h3 {
-  color: #f0f0f0 !important;
+  color: #fffcfa !important;
 }
 
 
 /* Red Notification Button when you get a New Message */
 .badge {
-  background: #94908d !important;
-  color: #f0f0f0 !important;
+  background: #8C7A6B !important;
+  color: #fffcfa !important;
   font-size: 11px;
   text-align: center !important;
   padding: 3px 7px 3px 5px !important;
@@ -212,8 +212,8 @@ h3 {
 
 /* Panels on the Right */
 .panel {
-background: rgba(195,194,190,0.2) !important;
-color: #f0f0f0 !important;
+background: rgba(87, 70, 53, 1) !important;
+color: #fffcfa !important;
 box-shadow: none !important;
 border: none !important;
 border-radius: 4px !important;
@@ -222,9 +222,9 @@ border-radius: 4px !important;
 
 /* Panel Headers */
 .sidebar h3 {
-  color: #f0f0f0 !important;
+  color: #fffcfa !important;
   font-size: 26px !important;
-  font-family: "Crimson Text", serif !important;
+  font-family: "Montserrat", serif !important;
 }
 
 
