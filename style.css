@@ -70,30 +70,21 @@ font-size: 64px;
 text-align: center !important;
 font-family: 'Montserrat';
 text-shadow: 
-    -2px -2px 0 #000,  2px -2px 0 #000, 
-    -2px  2px 0 #000,  2px  2px 0 #000,
-    -2px  0px 0 #000,  2px  0px 0 #000,
-     0px -2px 0 #000,  0px  2px 0 #000; }
+    -1px -1px 0 #000,  1px -1px 0 #000; } 
 
 h2 {
 color: #fffcfa !important;
 font-size: 24px;
 font-family: 'Montserrat';
 text-shadow: 
-    -2px -2px 0 #000,  2px -2px 0 #000, 
-    -2px  2px 0 #000,  2px  2px 0 #000,
-    -2px  0px 0 #000,  2px  0px 0 #000,
-     0px -2px 0 #000,  0px  2px 0 #000; }
+    -1px -1px 0 #000,  1px -1px 0 #000; } 
 
 h3 {
 color: #fffcfa !important;
 font-size: 18px;
 font-family: 'Montserrat';
 text-shadow: 
-    -2px -2px 0 #000,  2px -2px 0 #000, 
-    -2px  2px 0 #000,  2px  2px 0 #000,
-    -2px  0px 0 #000,  2px  0px 0 #000,
-     0px -2px 0 #000,  0px  2px 0 #000; }
+    -1px -1px 0 #000,  1px -1px 0 #000; } 
 
 /* LINKS
 Color of links. This will affect all links on your page.
@@ -104,18 +95,12 @@ a:visited {
 color: #fffcfa !important;
 background: none !important; 
 text-shadow: 
-    -2px -2px 0 #000,  2px -2px 0 #000, 
-    -2px  2px 0 #000,  2px  2px 0 #000,
-    -2px  0px 0 #000,  2px  0px 0 #000,
-     0px -2px 0 #000,  0px  2px 0 #000; }
+    -1px -1px 0 #000,  1px -1px 0 #000; } 
    
 a:hover {
 color: #fffcfa !important; 
 text-shadow: 
-    -2px -2px 0 #000,  2px -2px 0 #000, 
-    -2px  2px 0 #000,  2px  2px 0 #000,
-    -2px  0px 0 #000,  2px  0px 0 #000,
-     0px -2px 0 #000,  0px  2px 0 #000; }
+    -1px -1px 0 #000,  1px -1px 0 #000; } 
 
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.
 You can make it a solid color by either using a HEX code, or by setting the final number in RGBA to 1.0 */
@@ -134,10 +119,7 @@ background: solid; }
 background: #453930 !important;
 color: #fffcfa !important;
 text-shadow: 
-    -2px -2px 0 #000,  2px -2px 0 #000, 
-    -2px  2px 0 #000,  2px  2px 0 #000,
-    -2px  0px 0 #000,  2px  0px 0 #000,
-     0px -2px 0 #000,  0px  2px 0 #000; }
+    -1px -1px 0 #000,  1px -1px 0 #000 
 border: none !important;
 border-radius: 0px !important;  }
  
@@ -145,10 +127,7 @@ border-radius: 0px !important;  }
 background: #453930 !important;
 color: #fffcfa !important;
 text-shadow: 
-    -2px -2px 0 #000,  2px -2px 0 #000, 
-    -2px  2px 0 #000,  2px  2px 0 #000,
-    -2px  0px 0 #000,  2px  0px 0 #000,
-     0px -2px 0 #000,  0px  2px 0 #000; }
+    -1px -1px 0 #000,  1px -1px 0 #000; 
 border: none !important;
 border-radius: 0px !important; }
 
@@ -156,7 +135,4 @@ border-radius: 0px !important; }
 background: #8C7A6B !important;
 color: #ffffff !important;
 text-shadow: 
-    -2px -2px 0 #000,  2px -2px 0 #000, 
-    -2px  2px 0 #000,  2px  2px 0 #000,
-    -2px  0px 0 #000,  2px  0px 0 #000,
-     0px -2px 0 #000,  0px  2px 0 #000; }
+    -1px -1px 0 #000,  1px -1px 0 #000; } 
