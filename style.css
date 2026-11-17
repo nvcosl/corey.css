@@ -82,6 +82,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 	color: #fffcfa !important;
 	font-size: 20px !important;
 	transition: 0.5s !important;
+	  font-family: "Montserrat", serif !important;
 }
 
 /* Big Bar on Hover */
@@ -89,7 +90,8 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
   background: none !important;
 	color: #a89585 !important;
 	border-radius: 10px !important;
-    border: none !important;
+    border-style: solid !important;
+	border-color: #D9CAB3 !important;
 }
 
 
@@ -97,14 +99,16 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 .topbar {
   background: rgba(69, 57, 48, 1) !important;
   color: #f0f0f0 !important;
-  border: none;
+  border-style: solid !important;
+  border-color: #D9CAB3 !important;
 }
 
 /* Comment Box */
 #commentBox {
   background: rgba(140, 122, 107, 1);
   color: #f0f0f0 !important;
-  border: none !important;
+  border-style: solid !important;
+  border-color: #D9CAB3 !important;
   border-radius: 3px !important;
 }
 
@@ -160,7 +164,8 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 input.floatright,
 input.floatright:hover {
   background: rgba(69, 57, 48, 1) !important;
-  border: none !important;
+  border-style: solid !important;
+  border-color: #D9CAB3 !important;
   border-radius: 0px !important;
   color: #fffcfa !important;
 }
@@ -170,7 +175,8 @@ input.floatright:hover {
 button.button,
 button.button:hover {
   background: rgba(140, 122, 107) !important;
-  border: none !important;
+  border-style: solid !important;
+  border-color: #D9CAB3 !important;
   border-radius: 3px !important;
   text-shadow: none !important;
   color: #fffcfa !important;
@@ -181,8 +187,9 @@ button.button:hover {
 .alert-warning,
 .alert-danger {
   background: rgba( 69, 57, 48, 1) !important;
-  border: none !important;
-  color: #fffcfa !important;
+  border-style: solid !important;
+  border-color: #D9CAB3 !important;
+  text-color: #fffcfa !important;
   border-radius: 4px !important;
 }
 
@@ -191,12 +198,16 @@ h1 {
   color: #fffcfa !important;
   font-size: 43px !important;
   text-align: center !important;
+  border-style: solid !important;
+  border-color: #D9CAB3 !important;
 }
 
 
 /* Small Header (King Dynasty, Pride Dynasty, Achievements, etc) */
 h3 {
   color: #fffcfa !important;
+  border-style: solid !important;
+  border-color: #D9CAB3 !important;
 }
 
 
